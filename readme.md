@@ -1,2 +1,1 @@
-this is simple auction smart contract
-enjoy
+this is a simple auction smart contract
