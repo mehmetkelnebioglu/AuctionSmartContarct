@@ -74,7 +74,7 @@ contract SimpleAuction {
         if (amount > 0) {
             // It is important to set this to zero because the recipient
             // can call this function again as part of the receiving call
-            // before `send` returns.....
+            // before `send` returns1
             pendingReturns[msg.sender] = 0;
 
             if (!payable(msg.sender).send(amount)) {
